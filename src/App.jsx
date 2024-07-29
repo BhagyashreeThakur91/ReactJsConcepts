@@ -1,8 +1,11 @@
 import ClassBasedComponent from "./components/class-based-component"
 import ContextButtonComponent from "./components/context-concepts/button";
 import ContextTextComponent from "./components/context-concepts/text";
+import FormComponent from "./components/form";
 import FunctionalComponent from "./components/functionalComponent"
+import LoginComponent from "./components/login";
 import ProductList from "./components/products"
+import RegisterComponent from "./components/register";
 import UseReducerExample from "./components/useReducer-example";
 import Users from "./components/users";
 
@@ -18,7 +21,12 @@ function App() {
     {/* <Users/> */}
     {/* <ContextButtonComponent />
     <ContextTextComponent /> */}
-    <UseReducerExample />
+    {/* <UseReducerExample /> */}
+    {/* <FormComponent /> */}
+    <div style={{display : 'flex', gap : '20px'}}>
+      <LoginComponent />
+      <RegisterComponent />
+    </div>
     </>
   )
 }
